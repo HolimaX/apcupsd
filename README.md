@@ -5,7 +5,7 @@ This project, imported from https://sourceforge.net/p/apcupsd/svn/HEAD/tree/ , i
   - lack of GNOME 3.x Notification support.
   - lack of Latvian translation in PO files.
   - lack of support from newer APC models.
-  - lack of properly handled SElinux / AppArmor contexts. See followiung bug-report(s): https://bugzilla.redhat.com/show_bug.cgi?id=1645747
+  - lack of properly handled SElinux / AppArmor contexts. See following bug-report(s): https://bugzilla.redhat.com/show_bug.cgi?id=1645747
 
 # Licence
 

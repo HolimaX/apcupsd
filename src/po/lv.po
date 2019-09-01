@@ -1,0 +1,521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Linards Liepins <hx@inbox.lv>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-11-15 21:23+0100\n"
+"PO-Revision-Date: 2019-09-01 06:59+0000\n"
+"Last-Translator: Linards Liepins <hx@inbox.lv>, 2019\n"
+"Language-Team: Latvian (https://www.transifex.com/apcupsd/teams/102852/lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: apcaccess.c:106
+#, c-format
+msgid "APCACCESS FATAL ERROR in %s at line %d\n"
+msgstr "APCACCESS NEATGRIEZENISKA KĻŪDA %s datnes rindā %d\n"
+
+#: apcaccess.c:202
+#, c-format
+msgid "Usage: %s (ipc) < reconfig | status | slave | shutdown >\n"
+msgstr "Pielietojums: %s (ipc) < reconfig | status | slave | shutdown >\n"
+
+#: apcaccess.c:212 apcaccess.c:227
+#, c-format
+msgid "(ipc) <%s> : is not functional yet.\n"
+msgstr "(ipc) <%s> : pagaidām vēl nestrādā.\n"
+
+#: apcaccess.c:219
+#, c-format
+msgid "%s (ipc) : polling apcupsd for %s.\n"
+msgstr "%s. (ipc) : pārskatām apcupsd for %s.\n"
+
+#: apcaccess.c:234
+#, c-format
+msgid "%s (ipc) <%s> : is not functional yet.\n"
+msgstr "%s (ipc) <1%s> : pagaidām vēl nestrādā.\n"
+
+#: apcaccess.c:237
+#, c-format
+msgid "Unknown command %s\n"
+msgstr "Nezināma komanda %s\n"
+
+#: apcaccess.c:253 apcaccess.c:267
+msgid "Cannot attach SYSV IPC.\n"
+msgstr "Nevar pievienot SYSV IPC.\n"
+
+#: apcaccess.c:257 apcaccess.c:271
+msgid "Cannot read shm data area.\n"
+msgstr "Nevar nolasīt shm informācijas apgabalu.\n"
+
+#: apcaccess.c:277
+msgid "Strange mode\n"
+msgstr "Dīvainais režīms\n"
+
+#. executed only once
+#. Replace Battery
+#: apcaction.c:123
+msgid "UPS battery must be replaced"
+msgstr "UPS bateriju nepieciešams nomainīt"
+
+#: apcaction.c:128
+msgid "Too Many Errors. Restarting UPS daemon"
+msgstr "Pārāk Daudz Kļūdu. Parstartēju UPS deamon"
+
+#: apcaction.c:143
+msgid "Remote shutdown"
+msgstr "Attālinātā izslēgšana"
+
+#: apcaction.c:152
+msgid "Power failure"
+msgstr "Elektropadeves kļūda"
+
+#: apcaction.c:173
+msgid "Running on UPS batteries"
+msgstr "Strādā uz UPS baterijām"
+
+#: apcaction.c:185
+msgid "Battery power exhausted"
+msgstr "Bateriju enerģija izsmelta"
+
+#: apcaction.c:198
+msgid "Reached run time limit on batteries"
+msgstr "Sasniegta bateriju darbības laika robežā"
+
+#: apcaction.c:211
+msgid "Battery charge below low limit"
+msgstr "Baterijas uzlādes līmenis zem limita"
+
+#: apcaction.c:220
+msgid "Reached remaining time percentage limit on batteries"
+msgstr "Baterijām sasniegts atlikušā laika procentuālais limits"
+
+#: apcaction.c:237
+msgid "Cancelling shutdown"
+msgstr "Atceļu izslēgšanu"
+
+#: apcaction.c:240
+msgid "Power is back. UPS running on mains."
+msgstr "Elektropadeve ir atgriezusies. UPS strādā uz tīkla."
+
+#: apcaction.c:242
+msgid "Allowing logins"
+msgstr "Atļauju pieslēgšanos"
+
+#: apcaction.c:261
+msgid "Users requested to logoff"
+msgstr "Lietotājs pieprasīja izrakstīšānos"
+
+#: apcaction.c:278 apcaction.c:286 apcaction.c:294 apcaction.c:302
+msgid "User login prohibitted"
+msgstr "Lietotāja pierakstīšānās aizliegta"
+
+#. * This is an emergency shutdown.
+#: apcaction.c:320
+msgid "Battery power failure. Emergency shutdown"
+msgstr "Bateriju enerģijas kļūda. Aŗkāŗtas izslēgšānās"
+
+#: apcconfig.c:286
+msgid "error ignored.\n"
+msgstr "kļūda ignorēta.\n"
+
+#: apcconfig.c:312 apcconfig.c:365
+#, c-format
+msgid "%s: Bogus configuration table! Fix and recompile.\n"
+msgstr "%s : Kļūdaina iestatījumu tabula! Izlabojiet un pārkompilētjiet.\n"
+
+#: apcconfig.c:332 apcconfig.c:335 apcconfig.c:382 apcconfig.c:385
+#, c-format
+msgid "%s: Bogus configuration value (%s)\n"
+msgstr "%s : Kļūdaina iestatījumu vētība (%s)\n"
+
+#: apcconfig.c:404
+#, c-format
+msgid "%s: Exceeded max slaves number (%d)\n"
+msgstr "%s : Pārsniegts maksimālais slave skaits (%d)\n"
+
+#: apcconfig.c:693
+#, c-format
+msgid "UPS function code %d missing\n"
+msgstr "Iztrūkst UPS funkcijas kods %d\n"
+
+#: apcconfig.c:704
+#, c-format
+msgid "Error opening configuration file (%s).\n"
+msgstr "Kļūda atverot iestatījumu datni (%s).\n"
+
+#: apcconfig.c:719
+#, c-format
+msgid ""
+"%s: Warning: old configuration file found.\n"
+"\n"
+"%s: Expected: \"%s\"\n"
+"%s: Found:    \"%s\"\n"
+"\n"
+"%s: Please check new file format and\n"
+"%s: modify accordingly the first line\n"
+"%s: of config file.\n"
+"\n"
+"%s: Processing config file anyway.\n"
+msgstr ""
+
+#: apcconfig.c:749
+#, c-format
+msgid "Parsing error at line %d of config file %s.\n"
+msgstr "Pārlasīšanas kļūda iestatījumu datnes %s rindā %d.\n"
+
+#: apcconfig.c:787
+#, c-format
+msgid "%s: Error :: Changing UPSTYPE from %s "
+msgstr "%s : Kļūda :: Maina UPSTYPE no %s"
+
+#: apcconfig.c:796
+#, c-format
+msgid ""
+"to %s due wrong Cable of Smart Signals.\n"
+"\\a"
+msgstr ""
+"uz %s neatbilstošā Smart Signals kabeļa dēļ.\n"
+"\\a"
+
+#: apcconfig.c:800
+msgid "Lookup operation failed: bad 'types' table\n"
+msgstr "Uzskates darbība izgāzusies: slikta 'types' tabula\n"
+
+#: apcconfig.c:837
+msgid "I can't be both MASTER and SLAVE\n"
+msgstr "Es nevaru būt gan MASTER, gan SLAVE\n"
+
+#: apcconfig.c:864
+msgid "Terminating due to configuration file errors.\n"
+msgstr "Iznīcinos iestatījumu datnes kļūdu dēļ.\n"
+
+#: apcexec.c:84
+msgid "start_thread: can not fork."
+msgstr "start_thread: nevaru sazaroties."
+
+#: apcexec.c:92
+#, c-format
+msgid "%s: start_thread(%s).\n"
+msgstr "%s : start_thread(%s).\n"
+
+#: apcexec.c:115
+msgid "execute: cannot fork()."
+msgstr "izpilde: nevar fork()."
+
+#. NOT REACHED
+#: apcexec.c:122
+#, c-format
+msgid "execute: cannot exec %s"
+msgstr "izpilde: nevar exec %s"
+
+#: apcipc.c:159
+msgid "read_lock: cannot increment read cnt."
+msgstr ""
+
+#: apcipc.c:174
+msgid "read_unlock: cannot unlock read sem."
+msgstr ""
+
+#: apcipc.c:188
+msgid "write_lock: cannot acquire write lock."
+msgstr ""
+
+#: apcipc.c:199
+msgid "write_lock: cannot assert write sem."
+msgstr ""
+
+#: apcipc.c:225
+msgid "write_unlock: cannot unlock write sem."
+msgstr ""
+
+#: apcipc.c:242
+msgid "create_semaphore: cannot create sem.\n"
+msgstr ""
+
+#: apcipc.c:251
+msgid "create_semaphore: cannot set up sem.\n"
+msgstr ""
+
+#: apcipc.c:260
+msgid "attach_semaphore: cannot attach sem.\n"
+msgstr ""
+
+#: apcipc.c:272
+msgid "destory_semaphore: cannot destroy sem.\n"
+msgstr ""
+
+#: apcipc.c:292
+msgid "create_shmarea: cannot create shm area.\n"
+msgstr ""
+
+#: apcipc.c:298
+msgid "create_shmarea: cannot attach shm area.\n"
+msgstr ""
+
+#: apcipc.c:312
+msgid "attach_shmarea: cannot get shm area.\n"
+msgstr ""
+
+#: apcipc.c:316
+msgid "attach_shmarea: cannot attach shm area.\n"
+msgstr ""
+
+#: apcipc.c:325
+msgid "attach_shmarea: shared memory version mismatch"
+msgstr ""
+
+#: apcipc.c:341
+msgid "destroy_shmarea: cannot destroy shm area.\n"
+msgstr ""
+
+#: apcoptd.c:109
+msgid ""
+"usage: apcupsd [options]\n"
+"  Options are as follows:\n"
+"  -?, --help                display this help\n"
+"  -V, --version             display version info\n"
+"  -c, --configure           attempt to configure UPS [*]\n"
+"  -f, --config-file <file>  load specified config file\n"
+"  -u, --update-battery-date update UPS battery date [*]\n"
+"  -k, --killpower           attempt to power down UPS [*]\n"
+"  -d, --debug <level>       set debug level (>0)\n"
+"  -n, --rename-ups          attempt to rename UPS [*]\n"
+"\n"
+"  [*] Only one parameter of this kind and apcupsd must not run.\n"
+"\n"
+"Copyright (C) 1996-1999 Andre Hedrick\n"
+"Copyright (C) 1999-2000 Riccardo Facchetti\n"
+"apcupsd is free software and comes with ABSOLUTELY NO WARRANTY\n"
+"under the terms of the GNU General Public License\n"
+"\n"
+"Report bugs to apcupsd Support Center:\n"
+"  http://www.brisse.dk/site/apcupsd/\n"
+msgstr ""
+
+#: apcoptd.c:212
+msgid ""
+"\n"
+"Error: too many arguments.\n"
+"\n"
+msgstr ""
+"\n"
+"Kļūda: pārak daudz argumentu.\n"
+"\n"
+
+#: apcreports.c:100
+#, c-format
+msgid "Status buffer overflow %d bytes\n"
+msgstr "Stāvokļa buferis pārpilda %d baitus\n"
+
+#: apcserial.c:79
+msgid "Serial port already initialized.\n"
+msgstr "Seriālais ports jau inicializēts.\n"
+
+#: apcserial.c:84
+#, c-format
+msgid "Cannot open UPS tty %s: %s\n"
+msgstr "Nevar atvērt UPS tty %s: %s\n"
+
+#: apcserial.c:97
+msgid "Unable to create serial port lock file.\n"
+msgstr "Nevar izveidot seriāla porta lock datni.\n"
+
+#: apcserial.c:158
+msgid "PANIC! Cannot communicate with UPS."
+msgstr "PANIKA! Nevar sazināties ar UPS."
+
+#: apcserial.c:209
+msgid "Shutdown not called first"
+msgstr "Izslēgšanās nav izsaukta pirmā"
+
+#: apcserial.c:211
+#, c-format
+msgid "Bug found attempting to kill the power in %s at line %s"
+msgstr "Kļūda atrasta %s rindā %s, mēģinot pārtraukt elektropadevi"
+
+#: apcserial.c:218
+msgid "Waiting 30 seconds for slave(s) to shutdown."
+msgstr "Gaidu 30 sekundes, lai slave(s) izlsēgtos"
+
+#: apcserial.c:223
+msgid "Waiting 15 seconds for slave(s) to shutdown"
+msgstr "Gaidu 15 sekundes, lai slave(s) izlsēgtos"
+
+#: apcserial.c:228
+msgid "Attempting to kill the power!"
+msgstr "Mēģinu pārtraukt elektropadevi!"
+
+#: apcserial.c:259
+msgid "Failed to kill the power! Attempting a REBOOT!"
+msgstr "Neizdevās pārtraukt elektropadevi! Mēģinu pārstartēties!"
+
+#: apcserial.c:261 apcserial.c:271 apcserial.c:347
+msgid "Perform CPU-reset or power-off"
+msgstr "Veiciet CPU-reset vai izslēgšanu"
+
+#: apcserial.c:266
+msgid "Waiting For ShareUPS Master to shutdown"
+msgstr "Gaidu ShareUPS Master izslēgšanos"
+
+#: apcserial.c:269
+msgid "Failed to have power killed by Master! Attempting a REBOOT!"
+msgstr "Master neizdevās ppārtraukt elektropadevi! Mēģinu pārstartēties!"
+
+#: apcserial.c:286
+msgid "UPS will power off ..."
+msgstr "UPS tik izslēgts..."
+
+#: apcserial.c:288 apcserial.c:315
+msgid "Mains-power returned during shutdown!"
+msgstr "Elektropadeve atjaunojās izslēgšanās laikā!"
+
+#: apcserial.c:289 apcserial.c:316
+msgid "Trying alternate method for killing power"
+msgstr "Mēģinu alternatīvo metodi elektropadeves pārtraukšanai"
+
+#: apcserial.c:310 apcserial.c:341
+msgid "UPS power-cycle in progress ..."
+msgstr "UPS elektropadeves cikls notiek..."
+
+#: apcserial.c:317
+msgid "Using non SU SmartUPS alternate method"
+msgstr "Lietoju ne-SU SmartUPS alternatīvo metodi"
+
+#: apcserial.c:329
+msgid "BackUPS Pro and SmartUPS v/s sleep for 6 min"
+msgstr "BackUS Pro un SmartUPS v/s aizmigšana uz 6 minūtēm"
+
+#: apcserial.c:346
+msgid "Unexpected error!"
+msgstr "Negaidīta kļūda!"
+
+#: apcserial.c:391
+msgid "Simple Cable Signal Lost!!!"
+msgstr "Viekāršā Kabeļa Signāls Pazudis!!!"
+
+#: apcsetup.c:240
+#, c-format
+msgid "%s: INVALID-FORMATTING(%s) OLDDATE(%s)\n"
+msgstr ""
+
+#: apcsmart.c:522
+#, c-format
+msgid "UPSlink Comm. Error, %s != SM count %d\n"
+msgstr ""
+
+#: apcsmart.c:535
+#, c-format
+msgid "UPSlink Comm. reestablished, %s == SM count %d\n"
+msgstr ""
+
+#: apcsmart.c:540
+#, c-format
+msgid "UPSlink Comm. Report, %s == SM count %d\n"
+msgstr ""
+
+#: apcupsd.c:202
+#, c-format
+msgid "apcupsd exiting, signal %u\n"
+msgstr ""
+"apcupsd izgāja, signāls %u\n"
+"\n"
+
+#: apcupsd.c:224
+msgid "shutdown succeeded"
+msgstr "izslēgšanās veiksmīgi beigta."
+
+#: apcupsd.c:239
+msgid "error shutdown completed"
+msgstr "kļūdas izslēgšanās pabeigta"
+
+#: apcupsd.c:256
+#, c-format
+msgid "apcupsd FATAL ERROR in %s at line %d\n"
+msgstr "apcupsd NEATGRIEZENISKA KĻŪDA %s rindā %d\n"
+
+#: apcupsd.c:356
+msgid "needs super user privileges to run.\n"
+msgstr "nepieciešamas priviliģēta lietotāja tiesības, lai palaistu.\n"
+
+#: apcupsd.c:364
+#, c-format
+msgid "Cannot update battery date %s\n"
+msgstr "Nevar atjaunot baterijas datumu %s\n"
+
+#: apcupsd.c:366
+#, c-format
+msgid "%s: attempting to update UPS battery date.\n"
+msgstr "%s : mēgina atjaunot UPS Baterijas datumu.\n"
+
+#: apcupsd.c:372 apcupsd.c:387 apcupsd.c:400
+msgid "done.\n"
+msgstr "izpildīts.\n"
+
+#: apcupsd.c:378
+msgid "This model cannot be configured.\n"
+msgstr "Šis modelis nevar tik iestatīs.\n"
+
+#: apcupsd.c:379
+#, c-format
+msgid "%s: attempting to configure UPS.\n"
+msgstr "%s : mēgina iestatīt UPS.\n"
+
+#: apcupsd.c:393
+#, c-format
+msgid "Can not rename %s\n"
+msgstr "Nevar pārsaukt %s\n"
+
+#: apcupsd.c:394
+#, c-format
+msgid "%s: attempting to rename UPS.\n"
+msgstr "%s : mēģina pārsaukt UPS.\n"
+
+#: apcupsd.c:419
+msgid "**** FIXME ****"
+msgstr ""
+
+#: apcupsd.c:427
+#, c-format
+msgid ""
+"NET Class Error %s\n"
+"\\a"
+msgstr ""
+"NET Klases Kļūda %s\n"
+"\\a"
+
+#: apcupsd.c:436
+msgid "Unknown share net type\n"
+msgstr "Nezināms dalītā tīkla tips\n"
+
+#: apcupsd.c:448
+#, c-format
+msgid "%s: init_ipc failed.\n"
+msgstr "%s : init_ipc izgāzies.\n"
+
+#. Failed to become daemon.
+#: apcupsd.c:466
+msgid "Can't fork.\n"
+msgstr "Nevar izdalīt.\n"
+
+#: apcupsd.c:479
+#, c-format
+msgid "failed to reacquire serial port lock file on device %s\n"
+msgstr "neizdevies atkārtoti iegūt seriāla porta lock datni iekārtā %s\n"
+
+#. *  Error!
+#. *
+#. *  This is the end-point of all the error conditions of this routine.
+#. *  This could happen.
+#: apcupsd.c:531
+msgid "Terminated.\n"
+msgstr "Pārtraukts.\n"
